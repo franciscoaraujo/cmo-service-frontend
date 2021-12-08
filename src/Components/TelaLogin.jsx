@@ -2,7 +2,7 @@ import React, { useState, useMemo } from "react"
 import PropTypes from 'prop-types';
 
 async function loginUser(credentials) {
-    return fetch('http://localhost:8080/api/v1/CMO/login', {
+    return fetch('https://cmo-service-api.herokuapp.com/api/v1/CMO/login', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -26,6 +26,7 @@ export default function Login({ setToken }) {
         e.preventDefault();
         const token = await loginUser({username,password});
         setToken(token);
+        console.log(token)
     }
     return (
         <div className="limiter">
