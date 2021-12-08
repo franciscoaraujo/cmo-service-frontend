@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,7 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# cmo-service-frontend
-Frontend que vai consumir a api cmo-service-api de cadastros de menbros e obreiros. O desenvolvimento desse frontend está sendo feito em ReactJS
->>>>>>> a0d37d7d86a64caa9083ff171c5163ac40c15b2c
+
